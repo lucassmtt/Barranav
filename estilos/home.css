@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+h1{
+    padding: 50px;
+}
+
+ul{
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+li{
+    display: block;
+}
+
+a{
+    display: block;
+    text-indent: 50px;
+    text-decoration: none;
+    font-size: large;
+    line-height: 40px;
+    background: black url(../imagens/menu.png) no-repeat;   
+    height: 40px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    background: url(../imagens/menu.png) no-repeat right bottom;
+    color: white;
+}
+
+#home .home a{
+    background: url(../imagens/menu.png) no-repeat right bottom;
+}
